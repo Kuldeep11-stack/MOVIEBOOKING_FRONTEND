@@ -10,7 +10,7 @@ import 'swiper/css/pagination';
 import { Navigation, Pagination, Mousewheel, Keyboard } from 'swiper/modules';
 import Image from 'next/image';
 
-const width = 2*window.innerWidth;
+const width = window.innerWidth;
 const height = window.innerHeight;
 
 const HomeSlider = () => {
